@@ -1,0 +1,219 @@
+/*imports fonts from font.css file*/
+
+@import url(./fonts.css);
+
+
+/*   css variables   */
+
+@import url(./partials/_variables.css);
+
+/*    importing the global variables   */
+@import url(./partials/globals.css);
+
+
+
+
+
+
+
+ .welcome .site-title h3
+{
+padding-top: 35%;
+font-weight: 500;
+}
+.welcome .site-title h3::after
+{
+content: " ";
+height: 2px;
+width: 18vw;
+background: rgb(8, 28, 44);
+display: inline-block;
+margin-left: 5%;
+transform: translateY(-10px);
+}
+ .welcome .site-title h1 a{
+    font-size:4rem;
+    text-decoration: none;
+    color: cadetblue;
+    font-family:var(--roboto);
+    
+}
+
+ .welcome .site-title h4
+{
+    font-size: 1.5rem;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+.welcome .banner-image >img
+{
+padding: 10rem 0;
+width: 35rem;
+}
+/*about me area*/
+ .about-me{
+    background: url(../images/woman-pointing-3188559_1920.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+ .about-me{
+    padding: 8rem 5rem;
+}
+ .about-me .about-title h2>span{
+    display: block;
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 21px;
+}
+ .about-me .about-title .paragraph >p{
+    padding: 0.4rem 0;
+}
+
+.skills{
+    padding-top: 5rem;
+}
+.skills-title h2{
+    font:normal  35px/30px var(--roboto);
+}
+.skills .progress {
+    height: 50px;
+    display: block;
+    background: none;
+  }
+  
+  .skills .progress .skill {
+    padding: 0;
+    margin: 0 0 6px 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #2c4964;
+  }
+  
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  .skills .progress-bar-wrap {
+    background: #fbeaf1;
+  }
+  
+  .skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: .9s;
+    background-color:rgb(29, 86, 112);
+  }
+
+
+.main-site .service-area{
+    padding: 7rem 2rem;
+}
+
+.service-area .services-title{
+    padding: 0 9rem;
+}
+.service-area .services-title h1{
+    font-size: 33px;   
+}
+.main-site .service-area .services-title p{
+    padding: 1rem 7rem;
+}
+.service-area .services{
+    background-color: rgba(248,252,253,0.973);
+    padding: 3rem 2;
+    width: 14rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+ .service-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+
+/*       project area     */
+
+.project-area{
+    padding: 4rem 0;
+}
+.button-group button{
+    background: transparent;
+    border:none;
+    font: normal 500 16px/130px var(--roboto);
+    text-transform: uppercase;
+    
+}
+
+
+
+
+
+.button-group button+button{
+    padding-left: 4rem;
+}
+.title >h4{
+    font: normal 700 25px/12px var(--roboto);
+}
+a:hover img{
+
+filter: brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/*     about area*/
+.about-area .about-title p{
+    padding: 1rem 7rem;
+}
+
+.about-area .client{
+    background: #ffffff10;
+    box-shadow: var(--box-shadow);
+    margin: 3rem 0rem;
+}
+.about-area .client .client-img{
+    padding: 2rem;
+}
+.about-area .client .about-client{
+    padding-top: 2rem;
+}
+.about-area .client .about-client h4{
+    font: normal 300 20px/10px var(--roboto);
+    
+}
+.about-area .client .about-client p{
+    font-size: 14px ;
+}
+.about-area .owl-carousel .owl-item{
+    display:flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+/*     end about area*/
+
+/*footer stylying*/
+
+.footer-area{
+    padding: 5rem 0;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+
+}
+.footer-area .social h5
+
+{
+    font:normal 500 23px/30px var(--roboto)
+}
+.footer-area .social a>i{
+    font-size: 22px;
+    padding: 2rem;
+    color:cadetblue;
+    transition: 0.2s;
+}
+.footer-area .social a>i:hover{
+    color: lightslategrey;
+    transform: scale(1.5);
+}
+/*end footer stylying*/
+

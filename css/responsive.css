@@ -1,0 +1,66 @@
+
+/*view port less than or equal 340 px */
+@media only screen and (max-width: 340px){
+    .head-area .main-site .navbar,
+    .head-area .main-site .navbar .navbar-brand,
+    .main-site .services-area{
+
+    
+        padding: 3%;
+        margin: 0%;
+    }
+
+   .welcome .site-title h1{
+        font-size: 41px;
+    }
+
+   
+
+    .services-area .services{
+        width: 14rem;
+    }
+
+}
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 792px){
+    .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    
+    
+
+    .project-area .button-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .about-area .about-title p{
+        padding: 0%;
+    }
+
+    
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .head-area .main-site .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    
+    .services-area .services-title,
+    .about-area{
+        padding: 3% 4%;
+    }
+
+
+}

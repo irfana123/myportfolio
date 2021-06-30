@@ -1,0 +1,45 @@
+/*imports fonts from font.css file*/
+
+@import url(./fonts.css);
+
+
+/*   css variables   */
+
+@import url(./partials/_variables.css);
+
+/*    importing the global variables   */
+@import url(./partials/globals.css);
+
+
+
+/*header area*/
+.head-area .main .navbar .navbar-brand
+{
+  padding: 0 2rem 0 5rem;
+  
+}
+.head-area .main .navbar
+{
+    padding: 1rem 10rem;
+    
+}
+.head-area .main .nav-item .nav-link{
+    font:500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color:var(--title-color);
+}
+
+.head-area .main .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.head-area .main .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
